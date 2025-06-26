@@ -63,7 +63,7 @@ const ForgotPasswordPage: React.FC = () => {
   }
 
   return (
-    <div className="flex flex-col min-h-screen bg-gray-50">
+    <div className="flex flex-col min-h-screen bg-background">
       <Header />
       <main className="flex-1 flex items-center justify-center p-4">
         <div className="w-full max-w-sm">
@@ -100,7 +100,7 @@ const ForgotPasswordPage: React.FC = () => {
                 </form>
               </Form>
               <div className="mt-4 text-center text-sm">
-                <Link to="/" className="font-medium text-blue-600 hover:underline">
+                <Link to="/" className="font-medium text-primary hover:underline">
                   Back to Login
                 </Link>
               </div>
