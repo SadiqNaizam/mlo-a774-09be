@@ -69,7 +69,7 @@ const ResetPasswordPage = () => {
   }
 
   return (
-    <div className="flex flex-col min-h-screen bg-gray-50">
+    <div className="flex flex-col min-h-screen bg-background">
       <Header />
       <main className="flex-grow flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
         <Card className="w-full max-w-md">
@@ -115,9 +115,9 @@ const ResetPasswordPage = () => {
             </Form>
           </CardContent>
           <CardFooter className="flex justify-center text-sm">
-            <p className="text-gray-600">
+            <p className="text-muted-foreground">
               Remembered your password?{' '}
-              <Link to="/" className="font-medium text-blue-600 hover:underline">
+              <Link to="/" className="font-medium text-primary hover:underline">
                 Log In
               </Link>
             </p>
